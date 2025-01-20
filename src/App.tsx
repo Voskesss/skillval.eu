@@ -1,6 +1,9 @@
 import './App.css'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import PowerfulSection from './components/PowerfulSection'
+import ValidationSection from './components/ValidationSection'
+import CarouselSection from './components/CarouselSection'
 import { useTranslation } from 'react-i18next'
 
 function App() {
@@ -60,6 +63,9 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <PowerfulSection />
+        <ValidationSection />
+        <CarouselSection />
       </main>
 
       {/* Footer */}
