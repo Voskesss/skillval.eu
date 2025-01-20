@@ -4,10 +4,10 @@ const PowerfulSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="full-width relative bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] -mb-1">
-      {/* Decoratieve cirkels */}
-      <div className="absolute right-0 top-0 w-[600px] h-[600px] rounded-full bg-blue-400/5 translate-x-1/2 -translate-y-1/4" />
-      <div className="absolute right-0 bottom-0 w-[400px] h-[400px] rounded-full bg-blue-500/5 translate-x-1/3 translate-y-1/4" />
+    <section className="full-width relative w-full bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] -mb-1 overflow-hidden">
+      {/* Decoratieve cirkels - aangepast voor responsiveness */}
+      <div className="absolute right-0 top-0 w-[300px] md:w-[600px] h-[300px] md:h-[600px] rounded-full bg-blue-400/5 translate-x-1/3 -translate-y-1/4" />
+      <div className="absolute right-0 bottom-0 w-[200px] md:w-[400px] h-[200px] md:h-[400px] rounded-full bg-blue-500/5 translate-x-1/4 translate-y-1/4" />
 
       {/* Onderste golf */}
       <div className="absolute -bottom-1 left-0 right-0">
