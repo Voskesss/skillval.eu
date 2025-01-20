@@ -26,10 +26,12 @@ const Header = () => {
           <div className="relative">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
+              className="group flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-white/5 transition-colors text-white"
             >
               <span className="text-xl">{currentLanguage.flag}</span>
-              <span className="text-sm font-medium">{currentLanguage.nativeName}</span>
+              <span className="text-sm font-medium opacity-0 max-w-0 group-hover:max-w-[100px] group-hover:opacity-100 transition-all duration-300 overflow-hidden whitespace-nowrap">
+                {currentLanguage.nativeName}
+              </span>
             </button>
 
             {/* Dropdown */}

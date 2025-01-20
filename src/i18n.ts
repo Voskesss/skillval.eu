@@ -31,6 +31,12 @@ i18n
       it: { translation: it }
     },
     fallbackLng: 'en',
+    supportedLngs: ['en', 'nl', 'de', 'fr', 'es', 'it'],
+    detection: {
+      order: ['navigator', 'htmlTag', 'path', 'subdomain'],
+      caches: ['localStorage'],
+      lookupLocalStorage: 'i18nextLng'
+    },
     interpolation: {
       escapeValue: false
     }
