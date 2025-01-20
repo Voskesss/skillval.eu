@@ -39,8 +39,12 @@ const PowerfulSection = () => {
 
           {/* Afbeelding sectie */}
           <div className="relative">
-            {/* Placeholder voor afbeelding */}
-            <div className="aspect-video bg-blue-900/20 rounded-lg backdrop-blur-sm" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-transparent md:hidden" />
+            <img
+              src="https://skillval.eu/wp-content/uploads/2024/11/Scherm­afbeelding-2024-11-23-om-17.02.30.png"
+              alt="SkillVal Platform Interface"
+              className="rounded-lg shadow-2xl w-full"
+            />
           </div>
         </div>
       </div>
