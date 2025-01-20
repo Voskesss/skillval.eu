@@ -14,9 +14,9 @@ const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src="https://skillval.eu/wp-content/uploads/2024/11/default-dark-png.png"
-            alt="SkillVal Logo"
-            className="h-10"
+            className="h-8 w-auto"
+            src="/images/logo-dark.png"
+            alt="SkillVal"
           />
         </a>
 

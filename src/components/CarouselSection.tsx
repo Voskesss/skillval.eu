@@ -7,19 +7,19 @@ const CarouselSection = () => {
 
   const slides = [
     {
-      image: "https://skillval.eu/wp-content/uploads/2020/01/home-testimonial-03.jpg",
+      image: "/images/testimonial-3.jpg",
       title: t('carousel.audit.title'),
       subtitle: t('carousel.audit.subtitle'),
       description: t('carousel.audit.description')
     },
     {
-      image: "https://skillval.eu/wp-content/uploads/2020/01/home-testimonial-02.jpg",
+      image: "/images/testimonial-2.jpg",
       title: t('carousel.assessors.title'),
       subtitle: t('carousel.assessors.subtitle'),
       description: t('carousel.assessors.description')
     },
     {
-      image: "https://skillval.eu/wp-content/uploads/2020/01/home-testimonial-01.jpg",
+      image: "/images/testimonial-1.jpg",
       title: t('carousel.evc.title'),
       subtitle: t('carousel.evc.subtitle'),
       description: t('carousel.evc.description')

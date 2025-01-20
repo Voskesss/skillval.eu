@@ -41,9 +41,9 @@ const PowerfulSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-transparent md:hidden" />
             <img
-              src="https://skillval.eu/wp-content/uploads/2024/11/Scherm­afbeelding-2024-11-23-om-17.02.30.png"
-              alt="SkillVal Platform Interface"
-              className="rounded-lg shadow-2xl w-full"
+              className="w-full h-auto rounded-lg shadow-lg"
+              src="/images/dashboard.png"
+              alt={t('powerful.image')}
             />
           </div>
         </div>

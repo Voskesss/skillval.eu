@@ -10,9 +10,9 @@ const ValidationSection = () => {
           {/* Afbeelding sectie */}
           <div className="relative">
             <img
-              src="https://skillval.eu/wp-content/uploads/2024/11/Scherm­afbeelding-2024-11-23-om-17.19.40.png"
-              alt="SkillVal Validation Interface"
-              className="rounded-lg shadow-2xl w-full"
+              className="w-full h-auto rounded-lg shadow-lg"
+              src="/images/validation.png"
+              alt={t('validation.image')}
             />
           </div>
 
