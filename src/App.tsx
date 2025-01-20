@@ -4,6 +4,8 @@ import Features from './components/Features'
 import PowerfulSection from './components/PowerfulSection'
 import ValidationSection from './components/ValidationSection'
 import CarouselSection from './components/CarouselSection'
+import NewsletterSection from './components/NewsletterSection'
+import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 
 function App() {
@@ -66,14 +68,10 @@ function App() {
         <PowerfulSection />
         <ValidationSection />
         <CarouselSection />
+        <NewsletterSection />
+        <Footer />
       </main>
 
-      {/* Footer */}
-      <footer className="bg-[#0A192F] text-white">
-        <div className="container mx-auto py-8 px-6 text-center">
-          <p className="text-sm"> 2024 SkillVal. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   )
 }
