@@ -94,13 +94,13 @@ const CarouselSection = () => {
         </div>
 
         {/* Navigatie dots */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-4 mt-20 relative z-10 -mb-8">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-colors ${
-                index === currentSlide ? 'bg-white' : 'bg-white/30'
+              className={`w-4 h-4 rounded-full transition-colors cursor-pointer ${
+                index === currentSlide ? 'bg-blue-400' : 'bg-blue-400/30 hover:bg-blue-400/50'
               }`}
               aria-label={`Ga naar slide ${index + 1}`}
             />
