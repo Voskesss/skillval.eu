@@ -49,8 +49,11 @@
   },
   "newsletter": {
     "title": "Blijf op de hoogte",
-    "subtitle": "Komt binnenkort",
-    "placeholder": "Vul je e-mail in",
-    "button": "Schrijf je in voor de Wachtlijst"
+    "description": "Schrijf je in voor de wachtlijst en ontvang updates over SkillVal",
+    "placeholder": "Jouw e-mailadres",
+    "button": "Inschrijven",
+    "success": "Bedankt voor je aanmelding!",
+    "sending": "Bezig met verzenden...",
+    "error": "Er ging iets mis. Probeer het later opnieuw."
   }
 }

@@ -48,9 +48,12 @@
     "description": "SkillVal is almost here! Be ready to validate skills and empower growth like never before."
   },
   "newsletter": {
-    "title": "Keep yourself updated",
-    "subtitle": "Coming soon",
-    "placeholder": "Enter your mail",
-    "button": "Join the Waitlist"
+    "title": "Stay Updated",
+    "description": "Join our waitlist to receive updates about SkillVal",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Thanks for subscribing!",
+    "sending": "Sending...",
+    "error": "Something went wrong. Please try again later."
   }
 }
