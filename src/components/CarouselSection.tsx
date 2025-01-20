@@ -32,17 +32,9 @@ const CarouselSection = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
-
   return (
     <section className="full-width bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] relative -mt-1">
-      {/* Bovenste golf */}
+      {/* Bovenste golf - bol */}
       <div className="absolute -top-1 left-0 right-0">
         <svg 
           viewBox="0 0 1440 100" 
@@ -58,13 +50,29 @@ const CarouselSection = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 pt-16 pb-24">
+      {/* Onderste golf - hol */}
+      <div className="absolute -bottom-1 left-0 right-0">
+        <svg 
+          viewBox="0 0 1440 100" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full block"
+          preserveAspectRatio="none"
+        >
+          <path 
+            d="M0,100 C320,0 720,0 1440,100 L1440 100 L0 100 Z" 
+            fill="white"
+          />
+        </svg>
+      </div>
+
+      <div className="container mx-auto px-4 pt-32 pb-24">
         {/* Carousel */}
         <div className="relative">
           {/* Slide */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Afbeelding */}
-            <div className="relative">
+            <div className="relative max-w-[480px] mx-auto">
               <img
                 src={slides[currentSlide].image}
                 alt={slides[currentSlide].title}
@@ -86,39 +94,19 @@ const CarouselSection = () => {
             </div>
           </div>
 
-          {/* Navigatie knoppen */}
+          {/* Navigatie bullets */}
           <div className="flex justify-center gap-4 mt-12">
             {slides.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  currentSlide === index ? 'bg-blue-400' : 'bg-gray-500'
+                  currentSlide === index ? 'bg-blue-400' : 'bg-gray-500 hover:bg-gray-400'
                 }`}
                 aria-label={`Ga naar slide ${index + 1}`}
               />
             ))}
           </div>
-
-          {/* Pijl knoppen */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-blue-400 transition-colors"
-            aria-label="Vorige slide"
-          >
-            <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-          <button
-            onClick={nextSlide}
-            className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-blue-400 transition-colors"
-            aria-label="Volgende slide"
-          >
-            <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
         </div>
       </div>
     </section>
