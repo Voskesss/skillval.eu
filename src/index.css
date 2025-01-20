@@ -129,7 +129,6 @@ button:focus-visible {
   background-size: cover;
   position: relative;
   overflow: hidden;
-  background-color: #FFF8B0;
   margin-top: -40px; /* Laat de hero iets onder de header beginnen */
 }
 
