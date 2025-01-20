@@ -130,6 +130,7 @@ button:focus-visible {
   position: relative;
   overflow: hidden;
   background-color: #FFF8B0;
+  margin-top: -40px; /* Laat de hero iets onder de header beginnen */
 }
 
 .hero-section::after {
@@ -151,6 +152,7 @@ button:focus-visible {
     min-height: auto;
     padding-top: 85%; /* Hogere ratio voor meer van de afbeelding */
     margin-bottom: 2rem;
+    margin-top: -0px; /* Iets minder overlap op mobiel */
   }
 
   .hero-section::after {
