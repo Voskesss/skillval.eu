@@ -36,7 +36,7 @@ const Header = () => {
 
             {/* Dropdown */}
             {isOpen && (
-              <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-100 py-2 min-w-[160px]">
+              <div className="absolute top-full right-0 mt-2 bg-white rounded-lg shadow-lg py-2 min-w-[160px]">
                 {Object.entries(languages).map(([code, { nativeName, flag }]) => (
                   <button
                     key={code}
@@ -45,11 +45,11 @@ const Header = () => {
                       setIsOpen(false);
                     }}
                     className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-gray-50 transition-colors ${
-                      code === i18n.language ? 'text-blue-600 bg-blue-50' : 'text-gray-700'
+                      code === i18n.language ? 'text-blue-600 font-medium bg-blue-50' : 'text-gray-700'
                     }`}
                   >
                     <span className="text-xl">{flag}</span>
-                    <span className="text-sm font-medium">{nativeName}</span>
+                    <span className="text-sm">{nativeName}</span>
                   </button>
                 ))}
               </div>
