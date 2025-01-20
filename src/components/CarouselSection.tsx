@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useSwipeable } from 'react-swipeable';
 
 const CarouselSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -33,6 +34,13 @@ const CarouselSection = () => {
     }, 5000);
     return () => clearInterval(timer);
   }, []);
+
+  // Swipe handlers
+  const handlers = useSwipeable({
+    onSwipedLeft: () => setCurrentSlide((prev) => (prev + 1) % slides.length),
+    onSwipedRight: () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length),
+    trackMouse: true
+  });
 
   return (
     <section className="full-width bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] relative -mt-1">
@@ -69,7 +77,7 @@ const CarouselSection = () => {
       </div>
 
       <div className="container mx-auto px-4 py-24">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div {...handlers} className="grid md:grid-cols-2 gap-12 items-center">
           {/* Afbeelding sectie */}
           <div className="relative max-w-[480px] mx-auto">
             <img
