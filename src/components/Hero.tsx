@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="full-width bg-cover bg-top min-h-[800px] relative hero-section pt-[72px]">
+    <div className="full-width bg-cover bg-top min-h-[1000px] relative hero-section pt-[72px] -mt-[72px]">
       {/* Witte golf onderaan */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg 
