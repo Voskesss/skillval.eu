@@ -1,5 +1,3 @@
-import { useTranslation } from 'react-i18next';
-
 const Hero = () => {
   return (
     <div className="full-width bg-cover bg-top min-h-[800px] relative hero-section pt-[72px]">
