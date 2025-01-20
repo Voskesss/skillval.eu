@@ -26,7 +26,7 @@ function App() {
               <img
                 src="https://skillval.eu/wp-content/uploads/2024/11/default-dark-png.png"
                 alt="SkillVal"
-                className="h-8"
+                className="h-12"
               />
             </a>
 
