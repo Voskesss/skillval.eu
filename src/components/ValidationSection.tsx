@@ -1,23 +1,7 @@
 const ValidationSection = () => {
   return (
-    <section className="full-width bg-white relative overflow-hidden py-24">
-      {/* Bovenste golf */}
-      <div className="absolute top-0 left-0 right-0">
-        <svg 
-          viewBox="0 0 1440 100" 
-          fill="none" 
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full rotate-180"
-          preserveAspectRatio="none"
-        >
-          <path 
-            d="M0,0 C320,100 720,100 1440,0 L1440 100 L0 100 Z" 
-            fill="#1F3A60"
-          />
-        </svg>
-      </div>
-
-      <div className="container mx-auto px-4 pt-16">
+    <section className="full-width bg-white relative -mt-1">
+      <div className="container mx-auto px-4 py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Afbeelding sectie */}
           <div className="relative">

@@ -41,14 +41,14 @@ const CarouselSection = () => {
   };
 
   return (
-    <section className="full-width bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] relative overflow-hidden py-24">
+    <section className="full-width bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] relative -mt-1">
       {/* Bovenste golf */}
-      <div className="absolute top-0 left-0 right-0">
+      <div className="absolute -top-1 left-0 right-0">
         <svg 
           viewBox="0 0 1440 100" 
           fill="none" 
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full rotate-180"
+          className="w-full rotate-180 block"
           preserveAspectRatio="none"
         >
           <path 
@@ -58,7 +58,7 @@ const CarouselSection = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 pt-16">
+      <div className="container mx-auto px-4 pt-16 pb-24">
         {/* Carousel */}
         <div className="relative">
           {/* Slide */}

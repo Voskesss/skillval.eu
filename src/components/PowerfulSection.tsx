@@ -1,9 +1,25 @@
 const PowerfulSection = () => {
   return (
-    <section className="full-width relative overflow-hidden bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60]">
+    <section className="full-width relative bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] -mb-1">
       {/* Decoratieve cirkels */}
       <div className="absolute right-0 top-0 w-[600px] h-[600px] rounded-full bg-blue-400/5 translate-x-1/2 -translate-y-1/4" />
       <div className="absolute right-0 bottom-0 w-[400px] h-[400px] rounded-full bg-blue-500/5 translate-x-1/3 translate-y-1/4" />
+
+      {/* Onderste golf */}
+      <div className="absolute -bottom-1 left-0 right-0">
+        <svg 
+          viewBox="0 0 1440 100" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full block"
+          preserveAspectRatio="none"
+        >
+          <path 
+            d="M0,0 C320,100 720,100 1440,0 L1440 100 L0 100 Z" 
+            fill="white"
+          />
+        </svg>
+      </div>
 
       <div className="container mx-auto px-4 py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
