@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Less work, more flow, more safety",
+    "subtitle": "SkillVal: Het platform dat vaardigheden valideert en waarde toevoegt aan carrières",
+    "description": "SkillVal stelt professionals en organisaties in staat om vaardigheden te identificeren en te valideren via EVC-processen en vaardigheidsrapporten. Van doelen naar resultaten, ons platform houdt je gefocust op wat echt belangrijk is: groei en ontwikkeling."
+  },
+  "features": {
+    "workflow": {
+      "title": "Geweldige workflow",
+      "description": "Skill validatie platform dat organisaties gebruiken om zich te focussen op het identificeren, valideren en benutten van vaardigheden die groei en succes stimuleren."
+    },
+    "collaboration": {
+      "title": "Samenwerken met het team",
+      "description": "Skill validatie platform dat mentoren, assessoren, EVC-aanbieders en werkgevers verbindt om effectief samen te werken en gefocust te blijven op vaardigheidsontwikkeling, validatie en loopbaangroei."
+    },
+    "security": {
+      "title": "AI en Menselijke Validatie om fraude te voorkomen",
+      "description": "AI en Menselijke Validatie werken samen om fraude te voorkomen en vertrouwen in vaardigheidsbeoordelingen te waarborgen."
+    }
+  },
+  "powerful": {
+    "title": "Eenvoudig te leren en extreem krachtig",
+    "description": "SkillVal vereenvoudigt vaardigheidsvalidatie en stelt teams in staat hun doelen te bereiken en betekenisvolle vooruitgang te boeken."
+  },
+  "validation": {
+    "title": "Voor validatie van elke vaardigheid",
+    "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, SkillVal zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
+  },
+  "comingSoon": {
+    "title": "SkillVal Komt binnenkort",
+    "description": "SkillVal is er bijna! Wees klaar om vaardigheden te valideren en groei te stimuleren zoals nooit tevoren."
+  },
+  "newsletter": {
+    "title": "Blijf op de hoogte",
+    "subtitle": "Komt binnenkort",
+    "placeholder": "Vul je e-mail in",
+    "button": "Schrijf je in voor de Wachtlijst"
+  }
+}

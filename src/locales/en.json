@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Less work, more flow, more safety",
+    "subtitle": "SkillVal: The platform that validates skills and adds value to careers",
+    "description": "SkillVal empowers professionals and organizations to identify and validate skills through EVC processes and skill reports. From goals to results, our platform keeps you focused on what truly matters: growth and development."
+  },
+  "features": {
+    "workflow": {
+      "title": "Awesome workflow",
+      "description": "Skill validation platform organizations use to focus on identifying, validating, and leveraging skills that drive growth and success."
+    },
+    "collaboration": {
+      "title": "Collaborate with team",
+      "description": "Skill validation platform that connects mentors, assessors, EVC providers, and employers to collaborate effectively and stay focused on skill development, validation, and career growth."
+    },
+    "security": {
+      "title": "AI and Human Validation to prevent fraud",
+      "description": "AI and Human Validation working together to prevent fraud and ensure trust in skill assessments."
+    }
+  },
+  "powerful": {
+    "title": "Easy to learn and extremely powerful",
+    "description": "SkillVal simplifies skill validation while empowering teams to achieve their goals and drive meaningful progress."
+  },
+  "validation": {
+    "title": "For validation of every skill",
+    "description": "Whether through EVC processes or detailed skill reports, SkillVal ensures accurate recognition of competencies. Empower individuals and organizations with trusted assessments for every career stage."
+  },
+  "comingSoon": {
+    "title": "SkillVal Coming soon",
+    "description": "SkillVal is almost here! Be ready to validate skills and empower growth like never before."
+  },
+  "newsletter": {
+    "title": "Keep yourself updated",
+    "subtitle": "Coming soon",
+    "placeholder": "Enter your mail",
+    "button": "Join the Waitlist"
+  }
+}

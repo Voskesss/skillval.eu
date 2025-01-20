@@ -1,33 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import Powerful from './components/Powerful'
+import Validation from './components/Validation'
+import ComingSoon from './components/ComingSoon'
+import Newsletter from './components/Newsletter'
+import LanguageSwitch from './components/LanguageSwitch'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header className="bg-navy-900 text-white p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <h1 className="text-2xl font-bold">SkillVal</h1>
+          <LanguageSwitch />
+        </div>
+      </header>
+      <main>
+        <Hero />
+        <Features />
+        <Powerful />
+        <Validation />
+        <ComingSoon />
+        <Newsletter />
+      </main>
+      <footer className="bg-navy-900 text-white p-4 mt-8">
+        <div className="container mx-auto text-center">
+          <p>&#169;2024 SkillVal</p>
+        </div>
+      </footer>
     </>
   )
 }
