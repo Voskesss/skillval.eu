@@ -1,6 +1,20 @@
 const Hero = () => {
   return (
-    <div className="full-width bg-cover bg-top min-h-[1000px] relative hero-section pt-[72px] -mt-[72px]">
+    <div className="full-width relative hero-section min-h-[600px] md:min-h-[800px] bg-white" style={{
+      backgroundImage: 'url(/images/hero-bg.jpg)',
+      backgroundSize: 'contain',
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center top'
+    }}>
+      {/* Logo links bovenin */}
+      <div className="absolute top-32 left-8 md:left-12 lg:left-16 z-10 w-[50%] max-w-[450px] min-w-[250px]">
+        <img
+          src="/images/logo-light.png"
+          alt="SkillVal"
+          className="w-full h-auto"
+        />
+      </div>
+
       {/* Witte golf onderaan */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg 
@@ -15,15 +29,6 @@ const Hero = () => {
             fill="white"
           />
         </svg>
-      </div>
-
-      <div className="container mx-auto px-4 relative">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-          </h1>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-          </p>
-        </div>
       </div>
     </div>
   );

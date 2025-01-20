@@ -138,6 +138,12 @@ button:focus-visible {
   background-position: center 50px !important;
 }
 
+@media (min-width: 768px) {
+  .hero-section {
+    background-size: cover !important;
+  }
+}
+
 .hero-section::after {
   content: '';
   position: absolute;
