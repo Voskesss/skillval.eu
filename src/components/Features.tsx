@@ -1,16 +1,18 @@
 import { useTranslation } from 'react-i18next';
 
 const Features = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Hoofdtekst */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Less work, more flow, more safety
+            {t('hero.title')}
           </h2>
           <p className="text-lg text-gray-600">
-            SkillVal: The platform that validates skills and adds value to careers. SkillVal empowers professionals and organizations to identify and validate skills through EVC processes and skill reports. From goals to results, our platform keeps you focused on what truly matters: growth and development.
+            {t('hero.subtitle')}. {t('hero.description')}
           </p>
         </div>
 
@@ -24,10 +26,10 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Awesome workflow
+              {t('features.workflow.title')}
             </h3>
             <p className="text-gray-600">
-              Skill validation platform organizations use to focus on identifying, validating, and leveraging skills that drive growth and success.
+              {t('features.workflow.description')}
             </p>
           </div>
 
@@ -41,10 +43,10 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Collaborate with team
+              {t('features.collaboration.title')}
             </h3>
             <p className="text-gray-600">
-              Skill validation platform that connects mentors, assessors, EVC providers, and employers to collaborate effectively and stay focused on skill development, validation, and career growth.
+              {t('features.collaboration.description')}
             </p>
           </div>
 
@@ -56,10 +58,10 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              AI and Human Validation to prevent fraud
+              {t('features.security.title')}
             </h3>
             <p className="text-gray-600">
-              AI and Human Validation working together to prevent fraud and ensure trust in skill assessments.
+              {t('features.security.description')}
             </p>
           </div>
         </div>

@@ -1,12 +1,19 @@
 import './App.css'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import { useTranslation } from 'react-i18next'
 
 function App() {
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="absolute top-0 left-0 right-0 bg-[#0A192F] z-50">
+      <header className="fixed top-0 left-0 right-0 bg-[#0A192F] z-50 shadow-lg backdrop-blur-sm bg-opacity-90">
         <nav className="container mx-auto">
           <div className="flex items-center justify-between py-4 px-6">
             {/* Logo */}
@@ -22,15 +29,25 @@ function App() {
             <div className="flex items-center gap-6">
               {/* Taal keuze */}
               <div className="flex gap-2">
-                <button className="text-white hover:text-blue-400 text-sm">NL</button>
+                <button 
+                  onClick={() => changeLanguage('nl')} 
+                  className="text-white hover:text-blue-400 text-sm transition-colors"
+                >
+                  NL
+                </button>
                 <span className="text-gray-500">|</span>
-                <button className="text-white hover:text-blue-400 text-sm">EN</button>
+                <button 
+                  onClick={() => changeLanguage('en')} 
+                  className="text-white hover:text-blue-400 text-sm transition-colors"
+                >
+                  EN
+                </button>
               </div>
 
               {/* Login knop */}
               <a
                 href="#"
-                className="text-white hover:text-blue-400 text-sm font-medium"
+                className="text-white hover:text-blue-400 text-sm font-medium transition-colors"
               >
                 Log in
               </a>
