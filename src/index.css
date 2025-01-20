@@ -155,11 +155,11 @@ button:focus-visible {
   .hero-section {
     background-image: url('/images/mobile-bg.jpg');
     background-position: center top;
-    background-size: 100% auto;
+    background-size: cover !important;
     min-height: auto;
     padding-top: 85%; /* Hogere ratio voor meer van de afbeelding */
     margin-bottom: 2rem;
-    margin-top: -0px; /* Iets minder overlap op mobiel */
+    margin-top: -20px;
   }
 
   .hero-section::after {
