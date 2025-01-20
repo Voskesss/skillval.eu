@@ -26,6 +26,23 @@
     "title": "For validation of every skill",
     "description": "Whether through EVC processes or detailed skill reports, SkillVal ensures accurate recognition of competencies. Empower individuals and organizations with trusted assessments for every career stage."
   },
+  "carousel": {
+    "audit": {
+      "title": "For Audit Companies",
+      "subtitle": "Ensure Compliance with Confidence",
+      "description": "Reliable reports and insights to make audits simple and transparent."
+    },
+    "assessors": {
+      "title": "For Assessors",
+      "subtitle": "Effortless Skill Assessment",
+      "description": "Everything you need to evaluate skills fairly, accurately, and efficiently."
+    },
+    "evc": {
+      "title": "For EVC Providers",
+      "subtitle": "Streamline Your EVC Processes",
+      "description": "Simple tools to manage pathways, guide candidates, and validate results with ease."
+    }
+  },
   "comingSoon": {
     "title": "SkillVal Coming soon",
     "description": "SkillVal is almost here! Be ready to validate skills and empower growth like never before."

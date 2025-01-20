@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 const PowerfulSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="full-width relative bg-gradient-to-br from-[#0A192F] via-[#172A46] to-[#1F3A60] -mb-1">
       {/* Decoratieve cirkels */}
@@ -26,22 +30,17 @@ const PowerfulSection = () => {
           {/* Tekst sectie */}
           <div className="text-white">
             <h2 className="text-4xl font-bold mb-6">
-              Easy to learn and<br />
-              extremely powerful.
+              {t('powerful.title')}
             </h2>
-            <p className="text-gray-300 text-lg">
-              SkillVal simplifies skill validation while empowering users to achieve their goals and drive meaningful progress.
+            <p className="text-lg text-white/80">
+              {t('powerful.description')}
             </p>
           </div>
 
           {/* Afbeelding sectie */}
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-transparent md:hidden" />
-            <img
-              src="https://skillval.eu/wp-content/uploads/2024/11/Scherm­afbeelding-2024-11-23-om-17.02.30.png"
-              alt="SkillVal Platform Interface"
-              className="rounded-lg shadow-2xl w-full"
-            />
+            {/* Placeholder voor afbeelding */}
+            <div className="aspect-video bg-blue-900/20 rounded-lg backdrop-blur-sm" />
           </div>
         </div>
       </div>

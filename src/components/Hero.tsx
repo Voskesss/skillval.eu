@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="full-width bg-cover bg-top min-h-[800px] relative hero-section pt-[72px]">
       {/* Witte golf onderaan */}

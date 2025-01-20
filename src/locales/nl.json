@@ -26,6 +26,23 @@
     "title": "Voor validatie van elke vaardigheid",
     "description": "Of het nu via EVC-processen is of gedetailleerde vaardigheidsrapporten, SkillVal zorgt voor nauwkeurige erkenning van competenties. Geef individuen en organisaties de mogelijkheid met betrouwbare beoordelingen voor elke loopbaanfase."
   },
+  "carousel": {
+    "audit": {
+      "title": "Voor Audit Bedrijven",
+      "subtitle": "Waarborg Compliance met Vertrouwen",
+      "description": "Betrouwbare rapporten en inzichten om audits eenvoudig en transparant te maken."
+    },
+    "assessors": {
+      "title": "Voor Assessoren",
+      "subtitle": "Moeiteloze Vaardigheidsbeoordeling",
+      "description": "Alles wat je nodig hebt om vaardigheden eerlijk, nauwkeurig en efficiënt te evalueren."
+    },
+    "evc": {
+      "title": "Voor EVC-Aanbieders",
+      "subtitle": "Stroomlijn Je EVC-Processen",
+      "description": "Eenvoudige tools om trajecten te beheren, kandidaten te begeleiden en resultaten gemakkelijk te valideren."
+    }
+  },
   "comingSoon": {
     "title": "SkillVal Komt binnenkort",
     "description": "SkillVal is er bijna! Wees klaar om vaardigheden te valideren en groei te stimuleren zoals nooit tevoren."

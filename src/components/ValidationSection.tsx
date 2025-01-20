@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 const ValidationSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="full-width bg-white relative -mt-1">
       <div className="container mx-auto px-4 py-24">
@@ -15,11 +19,10 @@ const ValidationSection = () => {
           {/* Tekst sectie */}
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              For validation of every<br />
-              skill
+              {t('validation.title')}
             </h2>
             <p className="text-gray-600 text-lg">
-              Whether through EVC processes or detailed skill reports, SkillVal ensures accurate recognition of competencies. Empower individuals and organizations with trusted assessments for every career stage.
+              {t('validation.description')}
             </p>
           </div>
         </div>

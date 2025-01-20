@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const NewsletterSection = () => {
   const [email, setEmail] = useState('');
+  const { t } = useTranslation();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -18,10 +20,10 @@ const NewsletterSection = () => {
       <div className="container mx-auto px-4 relative">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4 text-white">
-            Keep yourself updated
+            {t('newsletter.title')}
           </h2>
           <p className="text-gray-300 mb-8">
-            Coming soon
+            {t('newsletter.subtitle')}
           </p>
           
           {/* Form */}
@@ -31,15 +33,14 @@ const NewsletterSection = () => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your mail"
-                className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-400 bg-white/90"
-                required
+                placeholder={t('newsletter.placeholder')}
+                className="flex-1 px-6 py-3 rounded-lg bg-white/10 text-white placeholder-gray-400 border border-white/20 focus:outline-none focus:border-white/40"
               />
               <button
                 type="submit"
-                className="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors whitespace-nowrap"
+                className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
               >
-                Join the Waitlist
+                {t('newsletter.button')}
               </button>
             </form>
           </div>
