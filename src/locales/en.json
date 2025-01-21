@@ -56,5 +56,26 @@
     "success": "Thanks for subscribing!",
     "sending": "Sending...",
     "error": "Something went wrong. Please try again later."
+  },
+  "contact": {
+    "name": "Your name",
+    "subject": "Subject",
+    "message": "Your message",
+    "button": "Send",
+    "success": "Thank you for your message!",
+    "sending": "Sending...",
+    "error": "Something went wrong. Please try again later."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact us",
+      "name": "Your name",
+      "subject": "Subject",
+      "message": "Your message",
+      "button": "Send",
+      "success": "Thank you for your message!",
+      "sending": "Sending...",
+      "error": "Something went wrong. Please try again later."
+    }
   }
 }

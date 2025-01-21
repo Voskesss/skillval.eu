@@ -56,5 +56,26 @@
     "success": "Obrigado por se inscrever!",
     "sending": "Enviando...",
     "error": "Algo deu errado. Tente novamente mais tarde."
+  },
+  "contact": {
+    "name": "Seu nome",
+    "subject": "Assunto",
+    "message": "Sua mensagem",
+    "button": "Enviar",
+    "success": "Obrigado pela sua mensagem!",
+    "sending": "Enviando...",
+    "error": "Algo deu errado. Por favor, tente novamente mais tarde."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contato",
+      "name": "Seu nome",
+      "subject": "Assunto",
+      "message": "Sua mensagem",
+      "button": "Enviar",
+      "success": "Obrigado pela sua mensagem!",
+      "sending": "Enviando...",
+      "error": "Algo deu errado. Por favor, tente novamente mais tarde."
+    }
   }
 }

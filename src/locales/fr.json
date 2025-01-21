@@ -56,5 +56,26 @@
     "success": "Merci pour votre inscription !",
     "sending": "Envoi en cours...",
     "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "contact": {
+    "name": "Votre nom",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "button": "Envoyer",
+    "success": "Merci pour votre message !",
+    "sending": "Envoi en cours...",
+    "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contactez-nous",
+      "name": "Votre nom",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "button": "Envoyer",
+      "success": "Merci pour votre message !",
+      "sending": "Envoi en cours...",
+      "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
+    }
   }
 }

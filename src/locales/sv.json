@@ -56,5 +56,26 @@
     "success": "Tack för din registrering!",
     "sending": "Skickar...",
     "error": "Något gick fel. Försök igen senare."
+  },
+  "contact": {
+    "name": "Ditt namn",
+    "subject": "Ämne",
+    "message": "Ditt meddelande",
+    "button": "Skicka",
+    "success": "Tack för ditt meddelande!",
+    "sending": "Skickar...",
+    "error": "Något gick fel. Försök igen senare."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakta oss",
+      "name": "Ditt namn",
+      "subject": "Ämne",
+      "message": "Ditt meddelande",
+      "button": "Skicka",
+      "success": "Tack för ditt meddelande!",
+      "sending": "Skickar...",
+      "error": "Något gick fel. Försök igen senare."
+    }
   }
 }

@@ -56,5 +56,26 @@
     "success": "¡Gracias por suscribirte!",
     "sending": "Enviando...",
     "error": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+  },
+  "contact": {
+    "name": "Su nombre",
+    "subject": "Asunto",
+    "message": "Su mensaje",
+    "button": "Enviar",
+    "success": "¡Gracias por su mensaje!",
+    "sending": "Enviando...",
+    "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contáctenos",
+      "name": "Su nombre",
+      "subject": "Asunto",
+      "message": "Su mensaje",
+      "button": "Enviar",
+      "success": "¡Gracias por su mensaje!",
+      "sending": "Enviando...",
+      "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
+    }
   }
 }

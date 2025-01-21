@@ -56,5 +56,34 @@
     "success": "Bedankt voor je aanmelding!",
     "sending": "Bezig met verzenden...",
     "error": "Er ging iets mis. Probeer het later opnieuw."
+  },
+  "contact": {
+    "name": "Jouw naam",
+    "subject": "Onderwerp",
+    "message": "Je bericht",
+    "button": "Versturen",
+    "success": "Bedankt voor je bericht!",
+    "sending": "Bezig met verzenden...",
+    "error": "Er ging iets mis. Probeer het later opnieuw."
+  },
+  "footer": {
+    "contact": {
+      "title": "Neem contact op",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "address": "Adres"
+    },
+    "links": {
+      "title": "Links",
+      "about": "Over ons",
+      "privacy": "Privacy",
+      "terms": "Voorwaarden"
+    },
+    "social": {
+      "title": "Social Media",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    },
+    "copyright": " 2024 SkillVal. Alle rechten voorbehouden."
   }
 }

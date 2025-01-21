@@ -56,5 +56,26 @@
     "success": "Dziękujemy za zapisanie się!",
     "sending": "Wysyłanie...",
     "error": "Coś poszło nie tak. Spróbuj ponownie później."
+  },
+  "contact": {
+    "name": "Twoje imię",
+    "subject": "Temat",
+    "message": "Twoja wiadomość",
+    "button": "Wyślij",
+    "success": "Dziękujemy za wiadomość!",
+    "sending": "Wysyłanie...",
+    "error": "Coś poszło nie tak. Spróbuj ponownie później."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakt",
+      "name": "Twoje imię",
+      "subject": "Temat",
+      "message": "Twoja wiadomość",
+      "button": "Wyślij",
+      "success": "Dziękujemy za wiadomość!",
+      "sending": "Wysyłanie...",
+      "error": "Coś poszło nie tak. Spróbuj ponownie później."
+    }
   }
 }

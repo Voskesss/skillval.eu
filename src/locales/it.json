@@ -56,5 +56,26 @@
     "success": "Grazie per l'iscrizione!",
     "sending": "Invio in corso...",
     "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+  },
+  "contact": {
+    "name": "Il tuo nome",
+    "subject": "Oggetto",
+    "message": "Il tuo messaggio",
+    "button": "Invia",
+    "success": "Grazie per il tuo messaggio!",
+    "sending": "Invio in corso...",
+    "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+  },
+  "footer": {
+    "contact": {
+      "title": "Contattaci",
+      "name": "Il tuo nome",
+      "subject": "Oggetto",
+      "message": "Il tuo messaggio",
+      "button": "Invia",
+      "success": "Grazie per il tuo messaggio!",
+      "sending": "Invio in corso...",
+      "error": "Qualcosa è andato storto. Per favore riprova più tardi."
+    }
   }
 }

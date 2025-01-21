@@ -56,5 +56,26 @@
     "success": "Tak for din tilmelding!",
     "sending": "Sender...",
     "error": "Noget gik galt. Prøv igen senere."
+  },
+  "contact": {
+    "name": "Dit navn",
+    "subject": "Emne",
+    "message": "Din besked",
+    "button": "Send",
+    "success": "Tak for din besked!",
+    "sending": "Sender...",
+    "error": "Noget gik galt. Prøv venligst igen senere."
+  },
+  "footer": {
+    "contact": {
+      "title": "Kontakt os",
+      "name": "Dit navn",
+      "subject": "Emne",
+      "message": "Din besked",
+      "button": "Send",
+      "success": "Tak for din besked!",
+      "sending": "Sender...",
+      "error": "Noget gik galt. Prøv venligst igen senere."
+    }
   }
 }
