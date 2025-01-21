@@ -59,6 +59,7 @@
   },
   "contact": {
     "name": "Ditt namn",
+    "email": "E-postadress",
     "subject": "Ämne",
     "message": "Ditt meddelande",
     "button": "Skicka",
@@ -70,6 +71,7 @@
     "contact": {
       "title": "Kontakta oss",
       "name": "Ditt namn",
+      "email": "E-postadress",
       "subject": "Ämne",
       "message": "Ditt meddelande",
       "button": "Skicka",

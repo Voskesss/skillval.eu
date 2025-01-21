@@ -59,6 +59,7 @@
   },
   "contact": {
     "name": "Votre nom",
+    "email": "Adresse e-mail",
     "subject": "Sujet",
     "message": "Votre message",
     "button": "Envoyer",
@@ -70,6 +71,7 @@
     "contact": {
       "title": "Contactez-nous",
       "name": "Votre nom",
+      "email": "Adresse e-mail",
       "subject": "Sujet",
       "message": "Votre message",
       "button": "Envoyer",

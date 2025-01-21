@@ -59,6 +59,7 @@
   },
   "contact": {
     "name": "Jouw naam",
+    "email": "E-mailadres",
     "subject": "Onderwerp",
     "message": "Je bericht",
     "button": "Versturen",

@@ -59,6 +59,7 @@
   },
   "contact": {
     "name": "Your name",
+    "email": "Email address",
     "subject": "Subject",
     "message": "Your message",
     "button": "Send",

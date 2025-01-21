@@ -59,6 +59,7 @@
   },
   "contact": {
     "name": "Dit navn",
+    "email": "E-mailadresse",
     "subject": "Emne",
     "message": "Din besked",
     "button": "Send",
@@ -70,6 +71,7 @@
     "contact": {
       "title": "Kontakt os",
       "name": "Dit navn",
+      "email": "E-mailadresse",
       "subject": "Emne",
       "message": "Din besked",
       "button": "Send",
