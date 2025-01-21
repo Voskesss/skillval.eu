@@ -49,6 +49,7 @@
   },
   "newsletter": {
     "title": "Stay Updated",
+    "subtitle": "Subscribe for updates",
     "description": "Join our waitlist to receive updates about SkillVal",
     "placeholder": "Your email address",
     "button": "Subscribe",

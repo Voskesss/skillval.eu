@@ -49,8 +49,12 @@
   },
   "newsletter": {
     "title": "Restez informé",
-    "subtitle": "Bientôt disponible",
-    "placeholder": "Entrez votre e-mail",
-    "button": "Rejoindre la liste d'attente"
+    "subtitle": "Abonnez-vous aux mises à jour",
+    "description": "Rejoignez notre liste d'attente pour recevoir des mises à jour sur SkillVal",
+    "placeholder": "Votre adresse e-mail",
+    "button": "S'abonner",
+    "success": "Merci pour votre inscription !",
+    "sending": "Envoi en cours...",
+    "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
   }
 }

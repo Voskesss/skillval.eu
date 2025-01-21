@@ -49,8 +49,12 @@
   },
   "newsletter": {
     "title": "Bleiben Sie auf dem Laufenden",
-    "subtitle": "Demnächst verfügbar",
-    "placeholder": "E-Mail eingeben",
-    "button": "Der Warteliste beitreten"
+    "subtitle": "Abonnieren Sie Updates",
+    "description": "Treten Sie der Warteliste bei, um Updates über SkillVal zu erhalten",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "Abonnieren",
+    "success": "Vielen Dank für Ihre Anmeldung!",
+    "sending": "Wird gesendet...",
+    "error": "Etwas ist schiefgegangen. Bitte versuchen Sie es später erneut."
   }
 }

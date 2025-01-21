@@ -49,6 +49,7 @@
   },
   "newsletter": {
     "title": "Blijf op de hoogte",
+    "subtitle": "Schrijf je in voor updates",
     "description": "Schrijf je in voor de wachtlijst en ontvang updates over SkillVal",
     "placeholder": "Jouw e-mailadres",
     "button": "Inschrijven",

@@ -8,6 +8,10 @@ import de from './locales/de.json';
 import fr from './locales/fr.json';
 import es from './locales/es.json';
 import it from './locales/it.json';
+import pt from './locales/pt.json';
+import pl from './locales/pl.json';
+import sv from './locales/sv.json';
+import da from './locales/da.json';
 
 export const languages = {
   en: { nativeName: 'English', flag: '🇬🇧' },
@@ -15,7 +19,11 @@ export const languages = {
   de: { nativeName: 'Deutsch', flag: '🇩🇪' },
   fr: { nativeName: 'Français', flag: '🇫🇷' },
   es: { nativeName: 'Español', flag: '🇪🇸' },
-  it: { nativeName: 'Italiano', flag: '🇮🇹' }
+  it: { nativeName: 'Italiano', flag: '🇮🇹' },
+  pt: { nativeName: 'Português', flag: '🇵🇹' },
+  pl: { nativeName: 'Polski', flag: '🇵🇱' },
+  sv: { nativeName: 'Svenska', flag: '🇸🇪' },
+  da: { nativeName: 'Dansk', flag: '🇩🇰' }
 };
 
 i18n
@@ -28,10 +36,14 @@ i18n
       de: { translation: de },
       fr: { translation: fr },
       es: { translation: es },
-      it: { translation: it }
+      it: { translation: it },
+      pt: { translation: pt },
+      pl: { translation: pl },
+      sv: { translation: sv },
+      da: { translation: da }
     },
     fallbackLng: 'en',
-    supportedLngs: ['en', 'nl', 'de', 'fr', 'es', 'it'],
+    supportedLngs: ['en', 'nl', 'de', 'fr', 'es', 'it', 'pt', 'pl', 'sv', 'da'],
     detection: {
       order: ['navigator', 'htmlTag', 'path', 'subdomain'],
       caches: ['localStorage'],
