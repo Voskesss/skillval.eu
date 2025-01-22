@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "SkillVal | Plateforme d'évaluation technique alimentée par l'IA pour les développeurs",
+    "description": "Validez les compétences techniques des développeurs avec l'IA. Évaluations objectives et efficaces pour le recrutement et le développement des talents."
+  },
   "hero": {
     "title": "Moins de travail, plus de fluidité, plus de sécurité",
     "subtitle": "SkillVal : La plateforme qui valide les compétences et valorise les carrières",

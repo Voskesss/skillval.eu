@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "SkillVal | Platforma oceny technicznej oparta na AI dla programistów",
+    "description": "Waliduj umiejętności techniczne programistów za pomocą AI. Obiektywne i efektywne oceny dla rekrutacji i rozwoju talentów."
+  },
   "hero": {
     "title": "Mniej pracy, więcej przepływu, więcej bezpieczeństwa",
     "subtitle": "SkillVal: Platforma, która waliduje umiejętności i dodaje wartość do kariery",

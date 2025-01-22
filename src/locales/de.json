@@ -80,5 +80,9 @@
       "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
     },
     "copyright": " 2024 SkillVal B.V. Alle Rechte vorbehalten."
+  },
+  "meta": {
+    "title": "SkillVal | KI-gestützte technische Bewertungsplattform für Entwickler",
+    "description": "Validieren Sie technische Fähigkeiten von Entwicklern mit KI. Objektive und effiziente Bewertungen für Recruiting und Talententwicklung."
   }
 }

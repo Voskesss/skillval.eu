@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "SkillVal | Plataforma de Avaliação Técnica com IA para Desenvolvedores",
+    "description": "Valide habilidades técnicas de desenvolvedores com IA. Avaliações objetivas e eficientes para recrutamento e desenvolvimento de talentos."
+  },
   "hero": {
     "title": "Menos trabalho, mais fluxo, mais segurança",
     "subtitle": "SkillVal: A plataforma que valida competências e agrega valor às carreiras",

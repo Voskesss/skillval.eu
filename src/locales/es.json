@@ -80,5 +80,9 @@
       "error": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
     },
     "copyright": " 2024 SkillVal B.V. Todos los derechos reservados."
+  },
+  "meta": {
+    "title": "SkillVal | Plataforma de evaluación técnica impulsada por IA para desarrolladores",
+    "description": "Valide las habilidades técnicas de los desarrolladores con IA. Evaluaciones objetivas y eficientes para reclutamiento y desarrollo de talento."
   }
 }

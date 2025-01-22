@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "SkillVal | AI-driven teknisk utvärderingsplattform för utvecklare",
+    "description": "Validera utvecklares tekniska färdigheter med AI. Objektiva och effektiva bedömningar för rekrytering och talangutveckling."
+  },
   "hero": {
     "title": "Mindre arbete, mer flöde, mer säkerhet",
     "subtitle": "SkillVal: Plattformen som validerar färdigheter och adderar värde till karriärer",

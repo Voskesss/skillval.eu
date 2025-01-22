@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "SkillVal | AI-Powered Technical Assessment Platform voor Developers",
+    "description": "Valideer technische vaardigheden van developers met AI. Objectieve en efficiënte assessments voor recruitment en talent development."
+  },
   "hero": {
     "title": "Less work, more flow, more safety",
     "subtitle": "SkillVal: Het platform dat vaardigheden valideert en waarde toevoegt aan carrières",
