@@ -14,7 +14,7 @@ const Header = () => {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            className="h-8 w-auto"
+            className="h-12 w-auto"
             src="/images/logo-dark.png"
             alt="SkillVal"
           />
