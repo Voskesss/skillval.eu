@@ -77,6 +77,7 @@
       "success": "Thank you for your message!",
       "sending": "Sending...",
       "error": "Something went wrong. Please try again later."
-    }
+    },
+    "copyright": " 2024 SkillVal B.V. All rights reserved."
   }
 }

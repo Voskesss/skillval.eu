@@ -78,6 +78,7 @@
       "success": "Tack för ditt meddelande!",
       "sending": "Skickar...",
       "error": "Något gick fel. Försök igen senare."
-    }
+    },
+    "copyright": " 2024 SkillVal B.V. Alla rättigheter förbehållna."
   }
 }

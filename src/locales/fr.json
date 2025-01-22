@@ -78,6 +78,7 @@
       "success": "Merci pour votre message !",
       "sending": "Envoi en cours...",
       "error": "Une erreur s'est produite. Veuillez réessayer plus tard."
-    }
+    },
+    "copyright": " 2024 SkillVal B.V. Tous droits réservés."
   }
 }
