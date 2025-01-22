@@ -16,7 +16,7 @@ const Footer = () => {
               alt="SkillVal"
             />
             <p className="text-sm text-gray-500 text-center md:text-left">
-              SkillVal B.V.<br />
+              SkillVal<br />
               Arnhem, Nederland
             </p>
             <a
